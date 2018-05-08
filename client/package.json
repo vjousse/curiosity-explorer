@@ -1,0 +1,20 @@
+{
+  "name": "curious-client-elm",
+  "description": "Curious guys client code",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Vincent Jousse",
+  "repository": {
+    "type": "git",
+    "url": "git@framagit.org:vjousse/curious-client-elm.git"
+  },
+  "scripts": {
+    "install": "elm package install -y",
+    "start": "elm-live src/Main.elm --dir=public/ --output=public/elm.js --open"
+  },
+  "devDependencies": {
+    "elm": "0.18.0",
+    "elm-webpack-loader": "4.5.0",
+    "elm-live": "^2.7.5"
+  }
+}

@@ -1,0 +1,35 @@
+
+  <div class="app" id="app">
+    <!-- aside -->
+    <div id="aside" class="app-aside modal fade folded md show-text nav-dropdown">
+        <div class="left navside black dk" layout="column">
+        <div class="navbar no-radius">
+            <!-- brand -->
+            <a class="navbar-brand">
+                <div ui-include="'../assets/images/logo.svg'"></div>
+                <img src="../assets/images/logo.png" alt="." class="hide">
+                <span class="hidden-folded inline">{{app.name}}</span>
+            </a>
+            <!-- / brand -->
+        </div>
+        <div flex class="hide-scroll">
+            <nav class="scroll nav-active-primary">
+                <div ui-include="'../views/blocks/nav.html'"></div>
+            </nav>
+        </div>
+        <div flex-no-shrink>
+            <div ui-include="'../views/blocks/aside.top.1.html'"></div>
+        </div>
+        </div>
+    </div>
+    <!-- END aside -->
+
+    <div id="content" class="app-content box-shadow-z3" role="main">
+
+      <div id="main-map"></div>
+    </div>
+    <!-- END content -->
+
+  </div>
+  <!-- END app -->
+
