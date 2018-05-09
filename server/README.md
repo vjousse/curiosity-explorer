@@ -1,5 +1,13 @@
-# Eta Init
+# server
 
-This is a starter Eta project using Gradle.
+Build:
 
-See [here](http://eta-lang.org/docs/user-guides/eta-user-guide/installation/gradle#requirements) for instructions.
+    stack build
+
+Automatically rebuild on file change:
+
+    stack build --file-watch
+
+Run:
+
+    stack exec server-exe
