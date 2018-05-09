@@ -1,7 +1,7 @@
 elm-stuff
 elm.js
 node_modules
-
+*.cabal
 dist
 dist-*
 cabal-dev
